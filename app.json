@@ -12,26 +12,6 @@
     "BROKER_URL": {
       "description": "Default broker URL.",
       "value": ""
-    },
-    "FLOWER_EMAIL_DOMAIN": {
-      "description": "Enables Google OAuth. You need to create OAuth credentials and also enable the Google+ API, otherwise it will return 403. You need to your domain to a regex like: .*@example\\.com$",
-      "value": "",
-      "required": false
-    },
-    "FLOWER_OAUTH2_KEY": {
-      "description": "Oauth2 key. Required if using OAuth.",
-      "value": "",
-      "required": false
-    },
-    "FLOWER_OAUTH2_SECRET": {
-      "description": "OAuth2 secret. Required if using OAuth.",
-      "value": "",
-      "required": false
-    },
-    "FLOWER_OAUTH2_REDIRECT_URI": {
-      "description": "OAuth2 redirect uri. Required if using OAuth. Should look like: https://my-app.herokuapp.com/login",
-      "value": "",
-      "required": false
     }
   }
 }
